@@ -15,7 +15,7 @@ lines = inFile.readlines()
 inFile.close()
 
 outFileName = sys.argv[2]
-outFile = open(outFile, "w")
+outFile = open(outFileName, "w")
 # read input data:
 for line in lines:
     if line[0] != '#': # ignore comments
